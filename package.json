@@ -1,0 +1,32 @@
+{
+  "name": "es2099",
+  "version": "1.0.0",
+  "description": "Literally the future of JS",
+  "main": "index.js",
+  "bin": "bin/es2099",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remixz/es2099"
+  },
+  "keywords": [
+    "es2099", "future", "transpiler"
+  ],
+  "author": "Zach Bruggeman <mail@bruggie.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remixz/es2099/issues"
+  },
+  "homepage": "https://github.com/remixz/es2099",
+  "dependencies": {
+    "babel-core": "^4.7.16",
+    "falafel": "^1.0.1",
+    "minimist": "^1.1.1",
+    "standard": "^3.3.0"
+  },
+  "standard": {
+    "ignore": [ "example.js" ]
+  }
+}

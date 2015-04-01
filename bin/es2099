@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+var fs = require('fs')
+var path = require('path')
+var argv = require('minimist')(process.argv.slice(2))
+var parse = require('../')
+
+if (argv.help || !argv._[0]) {
+  console.log('Usage: es2099 <input>')
+  process.exit(0)
+}
+
+fs.readFile(path.resolve(process.cwd(), argv._[0]), function (err, dat) {
+  if (err) throw err
+
+  parse(dat.toString(), function (err, parsed) {
+    if (err) {
+      console.error(err.toString())
+      process.exit(1)
+    }
+
+    console.log(parsed)
+    process.exit(0)
+  })
+})
