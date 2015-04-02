@@ -1,6 +1,8 @@
-## ES2099 Spec
+## ES2099
 
 Welcome to the future.
+
+[![NPM](https://nodei.co/npm/es2099.png)](https://nodei.co/npm/es2099/)
 
 ### Backstory
 
@@ -21,7 +23,7 @@ That didn't seem right. Maybe a time server messed up. Then, I googled "ES2099",
 
 ![es2099](http://f.cl.ly/items/3o3y3L3E2R23330o0K1p/Image%202015-03-31%20at%209.34.38%20PM.png)
 
-There it was, in all its glory. ES2099. I knew what I had to do: download it. I quickly did so. Suddenly, Chrome crashed. My monitor turned off and on.
+The ES2099 spec, in all its glory. I knew what I had to do: download it. I quickly did so. Suddenly, Chrome crashed. My monitor turned off and on.
 
 ```
 $ date
@@ -99,7 +101,7 @@ var m = new Monad() // groovy
 
 ### Compatiblity
 
-ES2099 is compatible with every version before it (except ES2074... there's just a note not to talk about it). Because of this, all scripts are run through [`babel`](https://github.com/babel/babel) to create ES5 output. As well, if there are any ES2099 errors, your code will be run in Quirks mode.
+ES2099 is compatible with every version before it (except ES2074... there's just a note not to talk about it). Because of this, all scripts are run through [`babel`](https://github.com/babel/babel) to create ES5 output.
 
 ### Future
 
